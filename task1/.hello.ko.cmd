@@ -1,0 +1,1 @@
+cmd_/media/skoralah/Smita/Eudyptula/task1/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /media/skoralah/Smita/Eudyptula/task1/hello.ko /media/skoralah/Smita/Eudyptula/task1/hello.o /media/skoralah/Smita/Eudyptula/task1/hello.mod.o ;  true
