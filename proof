@@ -1,0 +1,9 @@
+skoralah@smita:/media/skoralah/Smita/Eudyptula/task1$ lsmod|grep helloworld
+skoralah@smita:/media/skoralah/Smita/Eudyptula/task1$ 
+skoralah@smita:/media/skoralah/Smita/Eudyptula/task1$ sudo insmod helloworld.ko
+[sudo] password for skoralah: 
+skoralah@smita:/media/skoralah/Smita/Eudyptula/task1$ lsmod|grep helloworld
+helloworld             16384  0
+skoralah@smita:/media/skoralah/Smita/Eudyptula/task1$ sudo rmmod  helloworld.ko
+skoralah@smita:/media/skoralah/Smita/Eudyptula/task1$ lsmod|grep helloworldskoralah@smita:/media/skoralah/Smita/Eudyptula/task1$ 
+

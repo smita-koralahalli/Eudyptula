@@ -1,0 +1,1 @@
+cmd_/media/skoralah/Smita/Eudyptula/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /media/skoralah/Smita/Eudyptula/hello.ko /media/skoralah/Smita/Eudyptula/hello.o /media/skoralah/Smita/Eudyptula/hello.mod.o ;  true
