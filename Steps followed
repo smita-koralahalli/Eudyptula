@@ -1,0 +1,15 @@
+[1] tar xvf linux-4.9.tar.gz
+[2] cd linux-4.9
+[3] make defconfig/make localmodconfig
+[4] grep -r CONFIG_LOCALVERSION_AUTO
+-- It will not be enabled by default in .config
+[5] make menuconfig
+[6] General Setup
+[7] Check yes for "Automatically append version information to the version string"
+[8] Check again for grep -r CONFIG_LOCALVERSION_AUTO
+-- It will be enabled now
+[9] make
+[10] sudo make modules_install
+[11] sudo make install
+[12] update-grub
+Then reboot and check config-4.9.0 file for CONFIG_LOCALVERSION_AUTO=y in /boot/config-4.9.0
